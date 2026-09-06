@@ -1,0 +1,27 @@
+            HH        HH   AAAAAAAAAA    SSSSSSSSSS   PPPPPPPPPPP   TTTTTTTTTTTT  EEEEEEEEEEEE  XX        XX  TTTTTTTTTTTT
+           HH        HH  AAAAAAAAAAAA  SSSSSSSSSSSS  PPPPPPPPPPPP  TTTTTTTTTTTT  EEEEEEEEEEEE  XX        XX  TTTTTTTTTTTT
+          HH        HH  AA        AA  SS        SS  PP        PP       TT       EE             XX      XX        TT
+         HH        HH  AA        AA  SS            PP        PP       TT       EE              XX    XX         TT
+        HH        HH  AA        AA  SSS           PP        PP       TT       EE               XX  XX          TT
+       HHHHHHHHHHHH  AAAAAAAAAAAA   SSSSSSSSS    PPPPPPPPPPPP       TT       EEEEEEEE          XXXX           TT
+      HHHHHHHHHHHH  AAAAAAAAAAAA    SSSSSSSSS   PPPPPPPPPPP        TT       EEEEEEEE          XXXX           TT
+     HH        HH  AA        AA           SSS  PP                 TT       EE               XX  XX          TT
+    HH        HH  AA        AA            SS  PP                 TT       EE              XX    XX         TT
+   HH        HH  AA        AA  SS        SS  PP                 TT       EE             XX      XX        TT
+  HH        HH  AA        AA  SSSSSSSSSSSS  PP                 TT       EEEEEEEEEEEE  XX        XX       TT
+ HH        HH  AA        AA   SSSSSSSSSS   PP                 TT       EEEEEEEEEEEE  XX        XX       TT
+
+Tool for printing huge banners of text in the style of the JES2 HASPPRPU module.  Has options for centre-justification, italics, and variable linewidth.
+
+usage: hasptext [-h] [-c] [-i] [-w WIDTH] text
+
+Convert text to IBM mainframe-style banner
+
+positional arguments:
+  text        The text to be converted
+
+options:
+  -h, --help  show this help message and exit
+  -c          Use centre justification
+  -i          Use italics
+  -w WIDTH    Width of output in columns
